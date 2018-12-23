@@ -14,8 +14,8 @@
 
 from sys import exit, version_info
 
-if version_info<(3,0,0):
-    print('[!] Please use Python 3. $ python3 SocialFish.py')
+if version_info<(2,0,0):
+    print('[!] Please use Python 2. $ python2 SocialFish.py')
     exit(0)
 
 from multiprocessing import Process
